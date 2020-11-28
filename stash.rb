@@ -4,11 +4,11 @@ class Stash < Formula
   version "0.1.0"
 
   if OS.linux?
-    url "https://github.com/rorokimdim/stash/releases/download/v0.1.0/stash-x86_64-linux"
-    sha256 "57a869e967feab19ee79c804c984f80e34574d546517fd6cf8b082304dae55c9"
+    url "https://github.com/rorokimdim/stash/releases/download/v0.1.0/stash-x86_64-linux.zip"
+    sha256 "f4179e29e8648900daaebff79678548249735cc17e80369769b9f685731047b1"
   else
-    url "https://github.com/rorokimdim/stash/releases/download/v0.1.0/stash-mac-os"
-    sha256 "feaca49c51c9954b5fa9328bf7454e78693123076e224eae3a9cb5fc60d02e2a"
+    url "https://github.com/rorokimdim/stash/releases/download/v0.1.0/stash-mac-os.zip"
+    sha256 "27e9bb6a4cfb1b52c143434c40b6b4c74e58268db958610c60bb15476f935a66"
   end
 
   bottle :unneeded
