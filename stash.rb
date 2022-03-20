@@ -12,8 +12,6 @@ class Stash < Formula
     sha256 "a9fe829100b9f1d4eeb50b1cc44bde5ef9ee7301dbff84cbc21db768f7da5edf"
   end
 
-  bottle :unneeded
-
   def install
     bin.install "stash"
     man1.install "stash.1"
