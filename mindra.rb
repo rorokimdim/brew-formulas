@@ -1,15 +1,15 @@
 class Mindra < Formula
   desc "A command line wrapper for diagrams and gloss."
   homepage "https://github.com/rorokimdim/mindra"
-  version "0.0.2"
+  version "0.0.3"
   license "BSD-3-Clause"
 
   if OS.linux?
-    url "https://github.com/rorokimdim/mindra/releases/download/v0.0.2/mindra-Linux.zip"
-    sha256 "83b1a689c8b0522e1495ad2df194f47d3e4c91f699185423089b211dd76e337c"
+    url "https://github.com/rorokimdim/mindra/releases/download/v0.0.3/mindra-Linux.zip"
+    sha256 "3bec6bb446565a5fb3800b43eaaec952fbe75da0e0eb79c1fb51605e5ddead2e"
   else
-    url "https://github.com/rorokimdim/mindra/releases/download/v0.0.2/mindra-macOS.zip"
-    sha256 "fac2197d4de5745ab937849ad3fce79ab17ea02a1e431c543fbec7e98cba6e6b"
+    url "https://github.com/rorokimdim/mindra/releases/download/v0.0.3/mindra-macOS.zip"
+    sha256 "2ca3265ad1b5b588a78e3064d5016dd7d23c0a1c73d8553558b7aef21681d491"
   end
 
   def install
