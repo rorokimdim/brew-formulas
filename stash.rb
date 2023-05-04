@@ -1,15 +1,15 @@
 class Stash < Formula
   desc "A command-line utility for encrypted text storage."
   homepage "https://github.com/rorokimdim/stash"
-  version "0.3.2"
+  version "0.3.3"
   license "BSD-3-Clause"
 
   if OS.linux?
-    url "https://github.com/rorokimdim/stash/releases/download/v0.3.2/stash-Linux.zip"
-    sha256 "bb954170d2ac752c275958dbe20e587dca0e1b54e6b0184ffca98ead03209db0"
+    url "https://github.com/rorokimdim/stash/releases/download/v0.3.3/stash-Linux.zip"
+    sha256 "a4840e9f1c57948ce77fa7625783232833407f28e7a74cc28678b0d28438e1f9"
   else
-    url "https://github.com/rorokimdim/stash/releases/download/v0.3.2/stash-macOS.zip"
-    sha256 "7a155247ffdcd7dd8a54eef53e90ba1f7c0488d30d614319ef2460000229147f"
+    url "https://github.com/rorokimdim/stash/releases/download/v0.3.3/stash-macOS.zip"
+    sha256 "0c167cf05afc0ea2a5bffefb2f11b0551aaa9443e8dec023aeac75af8ad99f4a"
   end
 
   def install
